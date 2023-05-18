@@ -1,0 +1,50 @@
+body{
+    height: 25vh;
+    text-align: center;
+    background-image: linear-gradient(lightgreen, seagreen, lightgreen)
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em
+}
+
+input{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+label{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+button{
+    font-size: 4em;
+    background-color: lightgreen;
+    border-radius: 25px;
+    width: fit-content;
+    font-family: genvea;
+    padding: .25em;
+}
+  
+div{
+    color: ivory;
+    font-size: 4em;
+    font-family: monospace;
+}
+  
+span{
+  color: #5d7c27;
+  font-family: monospace;
+  text-decoration: underline solid green;
+  padding-bottom: 5rem;
+  font-style: italic
+}
+
+span.sign{
+  color:#308d30
+}
